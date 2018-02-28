@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin: 20px 50px;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+}
+
+
+
+
+.jumbotron {
+  height: 600px;
+  border-radius: 0;
+  background: url(./Media/ocean.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h1 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 400% ;
+}
+
+
+.btn {
+  background-color: #EF8D8E;
+  height: 70px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5s;
+  border: 0px;
+}
+
+.btn:hover {
+  color: white;
+  transform: scale(1.1);
+  border: 0px;
+}
+
+.btn:active {
+  border: 0px;
+}
+
+.destinations h2 {
+  margin: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  height: 300px;
+  width: 450px;
+  margin: 10px;
+}
+
+footer p {
+  text-align: right;
+  font-size: 0.7em;
+  margin-right: 20px;
+  margin-top: 30px;
+}
